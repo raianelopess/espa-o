@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://blog.enem.com.br/wp-content/uploads/2020/02/img-materia-r7-espaco.jpg);
+    background-size: cover;
+}
+.globe{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-image: url(https://www.researchgate.net/profile/Henrique-De-Castro-2/publication/314556531/figure/fig1/AS:470547432775683@1489198658713/Figura-1-Mapa-mundial-com-a-luminosidade-das-areas-urbanizadas-durante-o-periodo.png);
+
+box-shadow: -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px #3a86ff;
+animation: rotate 35s linear infinite;
+}
+@keyframes rotate{
+to{background-position: 100%;}
+}
